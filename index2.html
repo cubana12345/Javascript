@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <!-- <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .login-container h2 {
+      text-align: center;
+    }
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .login-container button:hover {
+      background: #0056b3;
+    }
+    .error {
+      color: red;
+      font-size: 0.9em;
+    }
+  </style> -->
+</head>
+<body>
+<div id="container">
+<div id="login">
+  <h2 id="head">Login</h2>
+  <hr style="margin-top: -15px;">
+  <form id="loginForm">
+    <label for="name">Name</label><br>
+    <input type="text" id="username" placeholder="E.g:Cubana" required style="width: 190px; height: 20px; border-radius: 6px; border: none; padding: 5px;"/><br><br>
+    <label for="password">Enter Password</label><br>
+    <input type="password" id="password" placeholder="password" required style="width: 190px; height: 20px; border-radius: 6px; border: none; padding: 5px;"/><br><br>
+    <!-- <div class="error" id="errorMessage"></div>
+     -->
+    <button type="submit" id="btn">Login</button>
+  </form>
+</div>
+</div>
+<!-- Link to external JavaScript -->
+<script src="cubana.js"></script>
+
+</body>
+</html>
